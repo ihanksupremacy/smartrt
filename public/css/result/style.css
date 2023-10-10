@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 2px;
+    width: 155.35vh;
+    height: 720px;
+    margin: 0;
+    margin-left: 00px;
+    padding-left: 15%;
+}
+
+.content form input {
+    height: 5vh;
+    width: 50vh;
+}
+
+.content form button {
+    height: 5vh;
+    width: 10vh;
+    background-color: #3498db;
+    color: white;
+}
+form {
+    margin-left: 20%;
+}
+
+/* Membuat tampilan sidebar responsif */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: static;
+        background-color: #333;
+    }
+
+    .content {
+        margin-left: auto; /* Sesuaikan dengan kebutuhan Anda */
+        margin-right: 0;
+    }
+}
+
+.masyarakat .data {
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    width: 420px;
+    border: #333 solid;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 250px;
+    display: block;
+}
+
+.masyarakat .data a {
+    text-decoration: none;
+    color: white;
+    background: #3498db;
+    padding: 5px;
+    width: 10000px;
+}

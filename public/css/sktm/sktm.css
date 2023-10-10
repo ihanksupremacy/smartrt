@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    margin: 0%;
+    font-size: 20px;
+}
+hr {
+    height: 5px;
+    background-color: black;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+}
+style {
+    margin-right: 10px; /* Mengatur jarak dari teks ke titik dua */
+    display: inline-block; /* Untuk membuat elemen p dan titik dua dalam satu baris */
+}
+.indented {
+    text-indent: 25px; /* Sesuaikan dengan ukuran spasi yang Anda inginkan */
+}

@@ -1,0 +1,74 @@
+/* Styling form container */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+select {
+    height: 40px;
+}
+
+textarea {
+    height: 100px;
+}
+
+/* Styling form button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Styling links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Styling the logo */
+.logo {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styling the heading */
+h2 {
+    text-align: center;
+}
+
+/* Styling the "Sudah Punya Akun? Login" link */
+.lupa {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
